@@ -1,6 +1,6 @@
 import { BadRequestException, HttpStatus } from '@nestjs/common';
 import { validate } from 'class-validator';
-export async function CrearRegistro(
+export async function BuscarUnRegistroId(
   nuevoRegistro,
   servicio,
   createDto,
